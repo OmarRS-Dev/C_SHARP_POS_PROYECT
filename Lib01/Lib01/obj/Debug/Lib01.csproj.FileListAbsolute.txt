@@ -1,0 +1,10 @@
+C:\Users\USUARIO\OneDrive\Documentos\Higinia\C#\Lib01\Lib01\bin\Debug\Lib01.dll
+C:\Users\USUARIO\OneDrive\Documentos\Higinia\C#\Lib01\Lib01\bin\Debug\Lib01.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Higinia\C#\Lib01\Lib01\obj\Debug\Lib01.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Higinia\C#\Lib01\Lib01\obj\Debug\Lib01.dll
+C:\Users\USUARIO\OneDrive\Documentos\Higinia\C#\Lib01\Lib01\obj\Debug\Lib01.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Ingenieria en Software 1\Lib01\Lib01\bin\Debug\Lib01.dll
+C:\Users\USUARIO\OneDrive\Documentos\Ingenieria en Software 1\Lib01\Lib01\bin\Debug\Lib01.pdb
+C:\Users\USUARIO\OneDrive\Documentos\Ingenieria en Software 1\Lib01\Lib01\obj\Debug\Lib01.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Documentos\Ingenieria en Software 1\Lib01\Lib01\obj\Debug\Lib01.dll
+C:\Users\USUARIO\OneDrive\Documentos\Ingenieria en Software 1\Lib01\Lib01\obj\Debug\Lib01.pdb

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B41E19B9-97AB-493F-B0BE-2F501D23427A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Punto_de_venta</RootNamespace>
+    <AssemblyName>Punto_de_venta</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lib01">
+      <HintPath>..\..\Lib01\Lib01\bin\Debug\Lib01.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsArticulo.cs" />
+    <Compile Include="ClsCliente.cs" />
+    <Compile Include="CLSpersona.cs" />
+    <Compile Include="ClsProvedor.cs" />
+    <Compile Include="ClsServidor.cs" />
+    <Compile Include="ClsTicket.cs" />
+    <Compile Include="ClsUsuarios.cs" />
+    <Compile Include="dsarticulos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsarticulos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm Articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm Articulos.Designer.cs">
+      <DependentUpon>frm Articulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm Clientes.Designer.cs">
+      <DependentUpon>frm Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm Provedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm Provedores.Designer.cs">
+      <DependentUpon>frm Provedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm Usuarios.Designer.cs">
+      <DependentUpon>frm Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscar.Designer.cs">
+      <DependentUpon>frmBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusquedaPersonas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusquedaPersonas.Designer.cs">
+      <DependentUpon>frmBusquedaPersonas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMensaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMensaje.Designer.cs">
+      <DependentUpon>frmMensaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRGA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRGA.Designer.cs">
+      <DependentUpon>frmRGA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRGC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRGC.Designer.cs">
+      <DependentUpon>frmRGC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelimpresoraTickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelimpresoraTickets.Designer.cs">
+      <DependentUpon>frmSelimpresoraTickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios2.Designer.cs">
+      <DependentUpon>FrmUsuarios2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmValidar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmValidar.Designer.cs">
+      <DependentUpon>frmValidar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="miclase.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm Articulos.resx">
+      <DependentUpon>frm Articulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm Clientes.resx">
+      <DependentUpon>frm Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm Provedores.resx">
+      <DependentUpon>frm Provedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm Usuarios.resx">
+      <DependentUpon>frm Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscar.resx">
+      <DependentUpon>frmBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusquedaPersonas.resx">
+      <DependentUpon>frmBusquedaPersonas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMensaje.resx">
+      <DependentUpon>frmMensaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRGA.resx">
+      <DependentUpon>frmRGA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRGC.resx">
+      <DependentUpon>frmRGC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelimpresoraTickets.resx">
+      <DependentUpon>frmSelimpresoraTickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios2.resx">
+      <DependentUpon>FrmUsuarios2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValidar.resx">
+      <DependentUpon>frmValidar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RGC.rdlc" />
+    <EmbeddedResource Include="RGA.rdlc" />
+    <EmbeddedResource Include="RGC.rdlc" />
+    <None Include="app.config" />
+    <None Include="dsarticulos.xsc">
+      <DependentUpon>dsarticulos.xsd</DependentUpon>
+    </None>
+    <None Include="dsarticulos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsarticulos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsarticulos.xss">
+      <DependentUpon>dsarticulos.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar Ars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Repetir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anuncio 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Existencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-user-icon-vector-42797456-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8348553.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\235948950-vector-illustration-of-a-man-in-a-light-blue-sweater-and-dark-pants-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox-303113_640-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Veri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerificR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Verificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verificar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banner Tamaño.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

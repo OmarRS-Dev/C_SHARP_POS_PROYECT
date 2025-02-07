@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="codigo" type="xs:int" minOccurs="0" />
+                <xs:element name="rfc" type="xs:string" minOccurs="0" />
+                <xs:element name="nombre" type="xs:string" minOccurs="0" />
+                <xs:element name="direccion" type="xs:string" minOccurs="0" />
+                <xs:element name="telefono" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <codigo>0</codigo>
+    <rfc>XAXX010101000</rfc>
+    <nombre>PUBLICO EN GENERAL</nombre>
+    <direccion>----------</direccion>
+    <telefono>----------</telefono>
+    <email>----------</email>
+  </Table>
+  <Table>
+    <codigo>1</codigo>
+    <rfc>JSH2203LO01</rfc>
+    <nombre>José Alberto Luque López</nombre>
+    <direccion>Isla Tlachichintle #6, Guamúchil, Sinaloa</direccion>
+    <telefono>6731232913</telefono>
+    <email>Henrybelico@gmail.com</email>
+  </Table>
+  <Table>
+    <codigo>2</codigo>
+    <rfc>KJAJJJAKJKJAKMR</rfc>
+    <nombre>Edgar Estiel Heraldez Camacho</nombre>
+    <direccion>Prado Bonito, Guamúchil, SInaloa</direccion>
+    <telefono>6731000147</telefono>
+    <email>herladezbrawlstars@gmail.com</email>
+  </Table>
+  <Table>
+    <codigo>3</codigo>
+    <rfc>SSMD467429HGF45</rfc>
+    <nombre>Reynaldo Daniel Leyva Angulo</nombre>
+    <direccion>El prado</direccion>
+    <telefono>6731151807</telefono>
+    <email>reychilorio282@roblox.com</email>
+  </Table>
+  <Table>
+    <codigo>5</codigo>
+    <rfc>FRRS2505RSLMN90</rfc>
+    <nombre>Fredy Omar Román Salas</nombre>
+    <direccion>Unidad Nacional</direccion>
+    <telefono>6731151807</telefono>
+    <email>fredysandcompany@outlook.com</email>
+  </Table>
+  <Table>
+    <codigo>6</codigo>
+    <rfc>GSRF26718JHAHAL</rfc>
+    <nombre>José Pedro Infante Cruz</nombre>
+    <direccion>Av Mariano Matamoros Nte SN, Lomas del Valle, 81410 Guamúchi</direccion>
+    <telefono>673731001</telefono>
+    <email>pedritogamer2024@gmail.com</email>
+  </Table>
+  <Table>
+    <codigo>7</codigo>
+    <rfc>LAGR3456MSL23KS</rfc>
+    <nombre>Laurita Garza</nombre>
+    <direccion>Rio Bravo</direccion>
+    <telefono>6671001212</telefono>
+    <email>lauritaxemilio1979@hotmail.com</email>
+  </Table>
+  <Table>
+    <codigo>8</codigo>
+    <rfc>MKWA2093HSLMN90</rfc>
+    <nombre>Mike Wasausky</nombre>
+    <direccion>Monsters Inc</direccion>
+    <telefono>6734562314</telefono>
+    <email>mikenoobmaster@gmail.com</email>
+  </Table>
+  <Table>
+    <codigo>9</codigo>
+    <rfc>FCCH2024HSLGML2</rfc>
+    <nombre>Fernando Campos Camacho</nombre>
+    <direccion>Guamuchil</direccion>
+    <telefono>6737398597</telefono>
+    <email>fernandosoftgml@hotmail.com</email>
+  </Table>
+  <Table>
+    <codigo>10</codigo>
+    <rfc>JSHWE343OLSD</rfc>
+    <nombre>Erasmo Vilareal</nombre>
+    <direccion>Guasave</direccion>
+    <telefono>6875489898</telefono>
+    <email>eramospro777@hotmail.com</email>
+  </Table>
+</NewDataSet>

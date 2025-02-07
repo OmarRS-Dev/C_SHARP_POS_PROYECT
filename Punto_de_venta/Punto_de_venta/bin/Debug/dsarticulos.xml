@@ -1,0 +1,155 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="codigo" type="xs:string" minOccurs="0" />
+                <xs:element name="descripcion" type="xs:string" minOccurs="0" />
+                <xs:element name="p_compra" type="xs:float" minOccurs="0" />
+                <xs:element name="p_venta" type="xs:float" minOccurs="0" />
+                <xs:element name="existencia" type="xs:float" minOccurs="0" />
+                <xs:element name="stockmin" type="xs:float" minOccurs="0" />
+                <xs:element name="stockmax" type="xs:float" minOccurs="0" />
+                <xs:element name="codprovedor" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <codigo>038000846731</codigo>
+    <descripcion>Pringles 37 gr Original </descripcion>
+    <p_compra>15</p_compra>
+    <p_venta>20</p_venta>
+    <existencia>10</existencia>
+    <stockmin>5</stockmin>
+    <stockmax>15</stockmax>
+    <codprovedor>1</codprovedor>
+  </Table>
+  <Table>
+    <codigo>038000846755</codigo>
+    <descripcion>Papas Pringles Queso 40gr</descripcion>
+    <p_compra>15</p_compra>
+    <p_venta>20</p_venta>
+    <existencia>10</existencia>
+    <stockmin>5</stockmin>
+    <stockmax>15</stockmax>
+    <codprovedor>4</codprovedor>
+  </Table>
+  <Table>
+    <codigo>1</codigo>
+    <descripcion>1 metro de cable inalambrico </descripcion>
+    <p_compra>30</p_compra>
+    <p_venta>100</p_venta>
+    <existencia>50</existencia>
+    <stockmin>10</stockmin>
+    <stockmax>60</stockmax>
+    <codprovedor>4</codprovedor>
+  </Table>
+  <Table>
+    <codigo>10</codigo>
+    <descripcion>Pastillas de Silicio</descripcion>
+    <p_compra>350</p_compra>
+    <p_venta>1300</p_venta>
+    <existencia>80</existencia>
+    <stockmin>50</stockmin>
+    <stockmax>150</stockmax>
+    <codprovedor>12</codprovedor>
+  </Table>
+  <Table>
+    <codigo>11</codigo>
+    <descripcion>Laptop Katana MSI 3.0</descripcion>
+    <p_compra>7500</p_compra>
+    <p_venta>12000</p_venta>
+    <existencia>5</existencia>
+    <stockmin>2</stockmin>
+    <stockmax>8</stockmax>
+    <codprovedor>9</codprovedor>
+  </Table>
+  <Table>
+    <codigo>2</codigo>
+    <descripcion>Soldadura para madera</descripcion>
+    <p_compra>10</p_compra>
+    <p_venta>350</p_venta>
+    <existencia>80</existencia>
+    <stockmin>60</stockmin>
+    <stockmax>100</stockmax>
+    <codprovedor>5</codprovedor>
+  </Table>
+  <Table>
+    <codigo>3</codigo>
+    <descripcion>1 litro de pintura transparente</descripcion>
+    <p_compra>30</p_compra>
+    <p_venta>80</p_venta>
+    <existencia>15</existencia>
+    <stockmin>10</stockmin>
+    <stockmax>20</stockmax>
+    <codprovedor>2</codprovedor>
+  </Table>
+  <Table>
+    <codigo>4</codigo>
+    <descripcion>Martillo sin impacto</descripcion>
+    <p_compra>30</p_compra>
+    <p_venta>80</p_venta>
+    <existencia>20</existencia>
+    <stockmin>15</stockmin>
+    <stockmax>40</stockmax>
+    <codprovedor>4</codprovedor>
+  </Table>
+  <Table>
+    <codigo>5</codigo>
+    <descripcion>Destornillador de punta redonda</descripcion>
+    <p_compra>15</p_compra>
+    <p_venta>40</p_venta>
+    <existencia>15</existencia>
+    <stockmin>5</stockmin>
+    <stockmax>20</stockmax>
+    <codprovedor>5</codprovedor>
+  </Table>
+  <Table>
+    <codigo>6</codigo>
+    <descripcion>Disco de calibre 50</descripcion>
+    <p_compra>50</p_compra>
+    <p_venta>200</p_venta>
+    <existencia>10</existencia>
+    <stockmin>2</stockmin>
+    <stockmax>10</stockmax>
+    <codprovedor>1</codprovedor>
+  </Table>
+  <Table>
+    <codigo>7</codigo>
+    <descripcion>Aceite en polvo</descripcion>
+    <p_compra>90</p_compra>
+    <p_venta>175</p_venta>
+    <existencia>10</existencia>
+    <stockmin>5</stockmin>
+    <stockmax>15</stockmax>
+    <codprovedor>2</codprovedor>
+  </Table>
+  <Table>
+    <codigo>8</codigo>
+    <descripcion>Electrodos de plastico</descripcion>
+    <p_compra>150</p_compra>
+    <p_venta>235</p_venta>
+    <existencia>20</existencia>
+    <stockmin>16</stockmin>
+    <stockmax>30</stockmax>
+    <codprovedor>3</codprovedor>
+  </Table>
+  <Table>
+    <codigo>9</codigo>
+    <descripcion>Iman para madera</descripcion>
+    <p_compra>50</p_compra>
+    <p_venta>120</p_venta>
+    <existencia>100</existencia>
+    <stockmin>80</stockmin>
+    <stockmax>130</stockmax>
+    <codprovedor>1</codprovedor>
+  </Table>
+</NewDataSet>
